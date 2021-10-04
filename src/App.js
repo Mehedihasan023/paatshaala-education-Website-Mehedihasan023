@@ -20,7 +20,7 @@ import Faq from './Components/Faq/Faq';
 function App() {
   return (
     <div className="App">
-      
+      {/* routing path for navigation */}
      <Router>
      <Header></Header>
        <Switch>

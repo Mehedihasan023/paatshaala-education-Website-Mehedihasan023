@@ -8,6 +8,7 @@ import { useParams } from 'react-router';
 import { Link } from 'react-router-dom';
 
 const Details = () => {
+  // use id to get details of courses 
     let { id } = useParams();
     const [Details, setDetails] = useState([]);
     const [singleCourse, setSingleCourse] = useState({});
@@ -16,7 +17,7 @@ const Details = () => {
           .then((res) => res.json())
           .then((data) => setDetails(data));
       }, []);
-
+//  find out data by matching id 
       useEffect(() => {
         const found =Details.find(
           (course) => course.id === id
@@ -29,7 +30,7 @@ const Details = () => {
 
     return (
         <div className="single-card">
-
+{/* show the details with bootstrap card */}
 <Card>
  <img className="img-responsive" src={singleCourse?.image} alt="" />
   <Card.Header as="h2">{singleCourse?.name}</Card.Header>
@@ -42,7 +43,7 @@ const Details = () => {
     <h3>4 {singleCourse?.outline4}</h3>
     <h3>5 {singleCourse?.outline5}</h3>
     <br/>
-
+{/* link to redirect courses page  */}
     <Link
               to={ '/courses'  }
               activeStyle={{

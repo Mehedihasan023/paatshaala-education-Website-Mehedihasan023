@@ -8,7 +8,7 @@ const Home = () => {
 
 return (
     <div>
-
+{/* use bootstrap card to show some course info */}
 <Container>
   <Row xs={1} md={4} className="g-2">
 

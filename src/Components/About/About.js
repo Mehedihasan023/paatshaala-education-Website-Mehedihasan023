@@ -5,6 +5,9 @@ import { FontAwesomeIcon  } from '@fortawesome/react-fontawesome';
 const About = () => {
 
     return (
+
+//  show some info and image with custom css
+
         <div>
            <div className="about-container">
 
@@ -30,10 +33,12 @@ const About = () => {
                     <h3>Contact us</h3>
                     <p>Mob: +880 1795-094271 [10 AM-6 PM]; except Friday/Gov Holiday</p>
                     <p>Email: pathshala.office@gmail.com</p>
-                    <i class="fab fa-facebook font-icon"></i>
-                    <i class="fab fa-instagram-square font-icon"></i>
-                    <i class="fab fa-twitter font-icon"></i>
-                    <i class="fab fa-google-plus font-icon"></i>
+                    <div className="icon">
+                    <i class="fab fa-facebook font-icons"></i>
+                    <i class="fab fa-instagram-square font-icons"></i>
+                    <i class="fab fa-twitter font-icons"></i>
+                    <i class="fab fa-google-plus font-icons"></i>
+                    </div>
                     <h3>ADDRESS</h3>
                     <p>DrikPath Bhobon, 16 Sukrabad, Panthpath, Dhaka 1207, Bangladesh</p>
                </div>

@@ -8,6 +8,7 @@ import Course from '../Course/Course';
 const Courses = () => {
 
     const [courses, setCourses]= useState([])
+    // fetch data 
     useEffect(() =>{
         fetch('/courses.json')
         .then(res=>res.json())
@@ -16,6 +17,7 @@ const Courses = () => {
 
     return (
         <div>
+            {/* pass fetched  data to another component  */}
              <Row xs={1} md={3} className="g-4"> {
             courses.map(course => <Course
             key={course.id}

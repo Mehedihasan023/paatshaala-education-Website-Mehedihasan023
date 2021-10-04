@@ -24,6 +24,11 @@
 .contact-us p{
     text-align: start;
 }
-.font-icon{
+.icon{
+    text-align: start;
+}
+.font-icons{
+    
+    font-size: 25px;
     margin-right: 5px ;
 }

@@ -5,6 +5,8 @@ import { Link } from 'react-router-dom';
 
 
 const Corse = (props) => {
+
+  // disrtructure  value from props
     const{image,name,id}=props.course;
     // console.log(course)
 
@@ -12,11 +14,14 @@ const Corse = (props) => {
         <div>
  <Container>
 
+   {/* show courses with bootstrap card  */}
+
     <Col>
       <Card>
         <Card.Img variant="top" className="img-responsive" src={image}/>
         <Card.Body>
           <Card.Title>{name}</Card.Title>
+          {/* link to redirect in details */}
           <Link
                     to={ `/courses/${id}`  }
                     activeStyle={{

@@ -4,7 +4,7 @@ import './Faq.css'
 const Faq = () => {
     return (
         <div>
-            
+            {/* use bootstrap slider for showing some qustion and ans */}
 
 <Carousel variant="dark">
 

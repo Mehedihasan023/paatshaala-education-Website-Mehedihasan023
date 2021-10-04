@@ -6,7 +6,7 @@ import img from '../../images/1.png'
 const Header = () => {
     return (
         <div>
-        
+        {/* banner for header  */}
         <div className="header">
          <div className="image-container">
           <img src={img} alt="" />
@@ -17,6 +17,8 @@ const Header = () => {
         </div>
 
   <div className="navigation">
+
+    {/* nav link for navigation in multiple pages  */}
   <Container>
   <Navbar bg="dark" variant="light">
   <Container>
