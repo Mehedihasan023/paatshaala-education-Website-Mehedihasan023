@@ -1,0 +1,12 @@
+.img-responsive {
+
+    height: 300px;
+    
+    width: 100%;
+    
+    }
+    .single-card{
+        display: flex;
+        justify-content: center;
+        margin-left: 40px;
+    }

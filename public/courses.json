@@ -1,0 +1,102 @@
+[
+    {
+      "id": "emp121",
+      "name": "DIRECTION",
+      "brief":"BRIF COURSE OUTLINE",
+      "outline1": "Introduction to Film Making",
+      "outline2": "Preproduction/production/post production",
+      "outline3": "Critical Appreciation of Films",
+      "outline4": "Prepare a script for shooting",
+      "outline5": "Final Project on Film Production",
+      "image": "https://images.squarespace-cdn.com/content/v1/5f0ef172b78c7a6ddef4843c/1608807606588-DAPJJ52PC7VNGYZZVWAO/DFT+V2-01.jpg?format=500w"
+    },
+    {
+        "id": "emp223",
+        "name": "CINEMATOGRAPHY",
+        "brief":"BRIF COURSE OUTLINE",
+        "outline1": "HD Video Camera Operation",
+        "outline2": "Framing and Composition",
+        "outline3": "Shooting for Editing",
+        "outline4": "Lighting Techniques",
+        "outline5": "Responsibilities of Cinematographer",
+        "image": "https://images.squarespace-cdn.com/content/v1/5f0ef172b78c7a6ddef4843c/1608807670843-SXTP622LEC1YDYGM49EH/DFT+V2-02.jpg?format=750w"
+      },
+    {
+        "id": "emp311",
+        "name": "VIDEO EDITING",
+        "brief":"BRIF COURSE OUTLINE",
+        "outline1": "FCP & Premiere Pro Operation",
+        "outline2": "Dialogue Editing & Color Correction",
+        "outline3": "Digital Data Management",
+        "outline4": "Title, Subtitle and Graphics",
+        "outline5": "Theory of Film Editing",
+        "image": "https://images.squarespace-cdn.com/content/v1/5f0ef172b78c7a6ddef4843c/1608807783671-FHBT0O07SJYRF9LIKP5R/DFT+V2-03.jpg?format=750w"
+      },
+
+    {
+        "id": "emp431",
+        "name": "NEWS PRESENTATION",
+        "brief":"BRIF COURSE OUTLINE",
+        "outline1": "Language and Pronunciation",
+        "outline2": "Broadcast Journalism Basics",
+        "outline3": " Live Interview Techniques",
+        "outline4": "Practice in Broadcast Studio",
+        "outline5": " Visuals and Writing for TV",
+        "image": "https://images.squarespace-cdn.com/content/v1/5f0ef172b78c7a6ddef4843c/1608807900447-ZGAVX9V0CJCAV4VF42U0/DFT+V2-04.jpg?format=750w"
+      },
+    {
+        "id": "emp876",
+        "name": "MOTION GRAPHICS",
+        "brief":"BRIF COURSE OUTLINE",
+        "outline1": "Basic understanding of Graphics Design",
+        "outline2": "Principal of Animation",
+        "outline3": " Motion graphics with After Effects",
+        "outline4": "Motion graphics with Cinema 4D",
+        "outline5": "Final Project",
+        "image": "https://images.squarespace-cdn.com/content/v1/5f0ef172b78c7a6ddef4843c/1608808479401-W7BRIOH7L26BQYMJOK15/DFT+V2-05.jpg?format=750w"
+      },
+    {
+        "id": "emp834",
+        "name": "SCREENPLAY & DIRECTION",
+        "brief":"BRIF COURSE OUTLINE",
+        "outline1": "Basic understanding of video Design",
+        "outline2": "Principal of Animation",
+        "outline3": " play graphics with After Effects",
+        "outline4": "Motion Screenplay with Cinema 4D",
+        "outline5": "Final Project",
+        "image": "https://images.squarespace-cdn.com/content/v1/5f0ef172b78c7a6ddef4843c/1608808628820-MJLPZILD7SGFQBDJKMYQ/DFT+V2-06.jpg?format=750w"
+      },
+    {
+        "id": "emp698",
+        "name": "PHOTOSHOP",
+        "brief":"BRIF COURSE OUTLINE",
+        "outline1": "Color adjustment",
+        "outline2": "Practicing Light & Color Adjustment",
+        "outline3": "Working with Layer",
+        "outline4": "Using Camera RAW Plug-in",
+        "outline5": "Managing Images in Adobe Bridge",
+        "image": "https://images.squarespace-cdn.com/content/v1/5f0ef172b78c7a6ddef4843c/1599991863236-LSFI5RJCVVJA61H4TIGL/Courses+Thumbnail-06.jpg?format=750w"
+      },
+    {
+        "id": "emp398",
+        "name": "PROFESSIONAL",
+        "brief":"BRIF COURSE OUTLINE",
+        "outline1": "Craft Building",
+        "outline2": "Constructing Narration",
+        "outline3": "Building a Personal Project",
+        "outline4": "Review Sessions",
+        "outline5": "Research & Field Work",
+        "image": "https://images.squarespace-cdn.com/content/v1/5f0ef172b78c7a6ddef4843c/1599991720035-B68EBSN0SZEQF3QVEZRN/Courses+Thumbnail-03.jpg?format=750w"
+      },
+    {
+        "id": "emp708",
+        "name": "INTERNATIONAL PHOTOGRAPHY",
+        "brief":"BRIF COURSE OUTLINE",
+        "outline1": "Exhibition Designing",
+        "outline2": "Using Camera RAW Plug-in",
+        "outline3": "Building a Personal Project",
+        "outline4": "Review Sessions",
+        "outline5": "Research & Field Work",
+        "image": "https://images.squarespace-cdn.com/content/v1/5f0ef172b78c7a6ddef4843c/1599991720035-B68EBSN0SZEQF3QVEZRN/Courses+Thumbnail-03.jpg?format=750w"
+      }
+]

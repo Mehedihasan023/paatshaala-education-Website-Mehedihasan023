@@ -1,0 +1,29 @@
+.image-container img{
+    width: 500px;
+}
+.about-container{
+    display: flex;
+    justify-content:space-around;
+}
+.about-us{
+    width: 600px;
+}
+.about-us p{
+    text-align: start;
+}
+.contact-container{
+    margin-top: 30px;
+    padding: 20px;
+    display: flex;
+    justify-content:space-around;
+    background-color: rgb(231 231 231);
+}
+.contact-us{
+    width: 500px;
+}
+.contact-us p{
+    text-align: start;
+}
+.font-icon{
+    margin-right: 5px ;
+}
