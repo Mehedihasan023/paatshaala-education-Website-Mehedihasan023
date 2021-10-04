@@ -22,8 +22,7 @@ function App() {
     <div className="App">
       {/* routing path for navigation */}
      <Router>
-     <Header></Header>
-       <Switch>
+       <Switch> 
          <Route exact path="/">
          <Home></Home>
          </Route>
@@ -47,7 +46,6 @@ function App() {
          </Route>
        </Switch>
      </Router>
-     <Footer></Footer>
     </div>
   );
 }

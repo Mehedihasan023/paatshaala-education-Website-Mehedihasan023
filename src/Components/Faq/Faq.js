@@ -1,9 +1,12 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
+import Footer from '../Footer/Footer';
+import Header from '../Header/Header';
 import './Faq.css'
 const Faq = () => {
     return (
         <div>
+            <Header></Header>
             {/* use bootstrap slider for showing some qustion and ans */}
 
 <Carousel variant="dark">
@@ -86,7 +89,7 @@ const Faq = () => {
     </div> 
   </Carousel.Item>
 </Carousel>
-
+<Footer></Footer>
         </div>
     );
 };

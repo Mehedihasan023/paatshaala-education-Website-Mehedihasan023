@@ -2,12 +2,15 @@ import React, { useEffect, useState } from 'react';
 import { Card, Col, Container, Row } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
 import { Link } from 'react-router-dom';
+import Footer from '../Footer/Footer';
+import Header from '../Header/Header';
 import './Home.css'
 const Home = () => {
     const url = '/courses';
 
 return (
     <div>
+      <Header></Header>
 {/* use bootstrap card to show some course info */}
 <Container>
   <Row xs={1} md={4} className="g-2">
@@ -65,7 +68,7 @@ return (
 
 
 
-
+<Footer></Footer>
           </div>
     );
 };

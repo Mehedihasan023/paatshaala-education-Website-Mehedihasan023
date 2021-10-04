@@ -4,6 +4,8 @@ import { useEffect } from 'react';
 import { useState } from 'react';
 import { Card, CardGroup, Row } from 'react-bootstrap';
 import Course from '../Course/Course';
+import Footer from '../Footer/Footer';
+import Header from '../Header/Header';
 
 const Courses = () => {
 
@@ -17,6 +19,9 @@ const Courses = () => {
 
     return (
         <div>
+<Header></Header>
+
+
             {/* pass fetched  data to another component  */}
              <Row xs={1} md={3} className="g-4"> {
             courses.map(course => <Course
@@ -26,7 +31,9 @@ const Courses = () => {
                 </Course>         
                 )
             }</Row> 
-         
+
+            
+         <Footer></Footer>
         </div>
     );
 };

@@ -6,6 +6,8 @@ import { Card } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
 import { useParams } from 'react-router';
 import { Link } from 'react-router-dom';
+import Footer from '../Footer/Footer';
+import Header from '../Header/Header';
 
 const Details = () => {
   // use id to get details of courses 
@@ -29,6 +31,8 @@ const Details = () => {
 
 
     return (
+      <div>
+<Header></Header>
         <div className="single-card">
 {/* show the details with bootstrap card */}
 <Card>
@@ -55,6 +59,10 @@ const Details = () => {
 
   </Card.Body>
 </Card>
+        </div>
+
+
+<Footer></Footer>
         </div>
     );
 };

@@ -2,6 +2,8 @@ import React from 'react';
 import './About.css'
 
 import { FontAwesomeIcon  } from '@fortawesome/react-fontawesome';
+import Footer from '../Footer/Footer';
+import Header from '../Header/Header';
 const About = () => {
 
     return (
@@ -9,6 +11,8 @@ const About = () => {
 //  show some info and image with custom css
 
         <div>
+<Header></Header>
+
            <div className="about-container">
 
             <div className="image-container">
@@ -44,6 +48,8 @@ const About = () => {
                </div>
            </div>
 
+
+<Footer></Footer>
         </div>
     );
 };
