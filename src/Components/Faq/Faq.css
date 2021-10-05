@@ -21,3 +21,11 @@ tag{
     
    text-align: start;
 }
+/* make responsive */
+@media only screen and (max-width: 688px) {
+
+    .text{
+    
+        width: auto;
+    }
+}
