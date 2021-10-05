@@ -4,14 +4,27 @@ import Button from 'react-bootstrap/Button';
 import { Link } from 'react-router-dom';
 import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
+import img from '../../images/icon-header-1.png'
 import './Home.css'
 const Home = () => {
+  // path address for courses
     const url = '/courses';
 
 return (
     <div>
       <Header></Header>
-{/* use bootstrap card to show some course info */}
+{/*show some course info */}
+
+      <div className="container">
+        <div>
+          <img src={img} alt="" />
+        </div>
+        <div>
+          <h2>AWESOME FEATURES</h2>
+          <h3>WE OFFER STUDENTS FOR BETTER LEARNING</h3>
+        </div>
+      </div>
+
 <Container>
   <Row xs={1} md={4} className="g-2">
 
